@@ -213,11 +213,4 @@ IPv6 gives more efficient routing and removes the private-address collisions tha
 
 ---
 
-## Why this matters in a SOC
 
-- **Triaging an alert means knowing the layer.** A SYN flood is layer 4; a SQL injection is layer 7. Naming the layer correctly is the first step in choosing the right control.
-- **Every SIEM alert is built from packet metadata** — source IP, destination IP, port, protocol. These are the header fields above. Reading an alert is reading an IP header in a friendlier format.
-- **Ports identify services, and services identify risk.** Spotting that something is talking outbound on 4444 rather than 443 is exactly the kind of anomaly a junior analyst is expected to catch.
-- **Network topology drives what you can even see.** Where the firewall, switch and access point sit determines where sensors can be placed and which traffic is visible to monitoring at all.
-
----
