@@ -28,4 +28,4 @@ google-cert/
 One file per module, one folder per course.
 
 Note : 
-These are my own study notes. No course material, assessment content or copyrighted diagrams are reproduced here.
+These are my own study notes edited and modified using AI. No course material, assessment content or copyrighted diagrams are reproduced here.
